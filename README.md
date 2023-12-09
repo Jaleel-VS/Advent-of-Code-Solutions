@@ -21,7 +21,7 @@ Each year's solutions are organized in separate directories, named by the year (
 ## Progress
 
 ### 2015
-![](https://geps.dev/progress/0?dangerColor=800000&warningColor=ff9900&successColor=006600)
+![](https://geps.dev/progress/4?dangerColor=800000&warningColor=ff9900&successColor=006600)
 
 ### 2016
 ![](https://geps.dev/progress/0?dangerColor=800000&warningColor=ff9900&successColor=006600)
