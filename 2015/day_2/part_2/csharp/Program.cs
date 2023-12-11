@@ -15,8 +15,6 @@
     {
         string inputPath = Path.Combine(Directory.GetCurrentDirectory(), "..", "..", "input.txt");
 
-        System.Console.WriteLine(inputPath);
-
         // Check if the input file exists
         if (!File.Exists(inputPath))
         {
