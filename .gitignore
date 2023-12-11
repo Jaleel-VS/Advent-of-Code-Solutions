@@ -48,4 +48,4 @@ jspm_packages/
 project.lock.json
 project.fragment.lock.json
 artifacts/
-Advent-of-Code-Solutions.sln
+*.sln
