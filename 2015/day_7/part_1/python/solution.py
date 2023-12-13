@@ -83,6 +83,11 @@ if __name__ == "__main__":
 
     parse_input(INPUT_PATH)
 
-    print("The value of wire a is {}.".format(get_value("a")))
+    # print("The value of wire a is {}.".format(get_value("a")))
 
-    
+    # Part 2
+
+    wires["b"] = (Operation.ASSIGN, str(get_value("a")))
+
+    cache = {}
+    print("The value of wire a is {}.".format(get_value("a")))
