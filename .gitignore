@@ -51,3 +51,10 @@ artifacts/
 *.sln
 
 __pycache__/
+
+# rust 
+
+target/
+Cargo.lock
+
+
