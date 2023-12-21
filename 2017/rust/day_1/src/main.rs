@@ -12,6 +12,10 @@ fn main() {
     let sum = solve_part_1(&digits);
     println!("Part 1: {}", sum);
 
+    // solve part 2
+    let sum = solve_part_2(&digits);
+    println!("Part 2: {}", sum);
+
 
 
 }
@@ -21,6 +25,19 @@ fn solve_part_1(digits: &Vec<u32>) -> u32 {
     
     for i in 0..digits.len() {
         let next = (i + 1) % digits.len();
+        if digits[i] == digits[next] {
+            sum += digits[i];
+        }
+    }
+    sum
+}
+
+fn solve_part_2(digits: &Vec<u32>) -> u32 {
+    let mut sum = 0;
+    let len = digits.len();
+
+    for i in 0..len{
+        let next = (i + len/2) % len;
         if digits[i] == digits[next] {
             sum += digits[i];
         }
