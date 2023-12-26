@@ -1,3 +1,4 @@
+# part 1 involves summing up all the numbers in the input file
 import os
 
 class Solution:
