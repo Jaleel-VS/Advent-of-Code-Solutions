@@ -1,6 +1,6 @@
 # Advent of Code Solutions
 
-This repository contains my solutions to the [Advent of Code](https://adventofcode.com/) challenges, starting from the year 2015. I'm solving these puzzles for practice and fun, using Python and C#.
+This repository contains my solutions to the [Advent of Code](https://adventofcode.com/) challenges, starting from the year 2015. I'm solving these puzzles for practice and fun, using Python, Rust and C#.
 
 ## Structure
 
