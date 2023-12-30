@@ -13,8 +13,8 @@ public class Program
         
         Console.WriteLine("Part 1 Solution:");
         Console.WriteLine($"Checksum: {Part1.GetCheckSum(input)}");
-        
         Console.WriteLine("Part 2 Solution:");
+        Console.WriteLine($"Prototype: {Part2.getPrototype(input)}");
     }
 
     private static string? GetFileInput()
